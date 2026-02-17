@@ -1,0 +1,8 @@
+This is especially useful if you are not wanting to install
+Jenkins as a service, and just need to test functionality on a local
+system.
+The commands used in this lesson:
+sudo apt install -y openjdk-8-jre
+wget http://mirrors.jenkins.io/war-stable/latest/
+jenkins.war
+java -jar jenkins.war --httpPort=80 --prefix=/dashboard
